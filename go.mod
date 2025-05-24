@@ -3,6 +3,7 @@ module github.com/redpanda-data/redpanda-connect-plugin-example
 go 1.22.3
 
 require (
+	github.com/bmatsuo/lmdb-go v1.8.0
 	github.com/redpanda-data/benthos/v4 v4.38.0
 	github.com/redpanda-data/connect/public/bundle/free/v4 v4.31.0
 	github.com/stretchr/testify v1.9.0
